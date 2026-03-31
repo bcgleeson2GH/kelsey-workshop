@@ -1184,3 +1184,47 @@
   background: linear-gradient(90deg, var(--color-primary), var(--color-accent), var(--color-primary));
   opacity: 0.15;
 }
+
+/* ============================================================
+   CTA LOGISTICS STRIP
+   ============================================================ */
+
+.cta-logistics {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-8);
+  padding: var(--space-4) var(--space-6);
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: var(--radius-full);
+  width: fit-content;
+  margin-inline: auto;
+}
+
+.cta-logistics-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: rgba(255,255,255,0.85);
+  white-space: nowrap;
+}
+
+.cta-logistics-divider {
+  color: rgba(255,255,255,0.3);
+  font-size: var(--text-sm);
+}
+
+@media (max-width: 640px) {
+  .cta-logistics {
+    border-radius: var(--radius-xl);
+    padding: var(--space-4);
+  }
+  .cta-logistics-divider {
+    display: none;
+  }
+}
