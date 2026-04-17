@@ -1228,3 +1228,46 @@
     display: none;
   }
 }
+
+/* ============================================================
+   HOST CARD — DARK VARIANT & LEARN MORE BUTTON
+   ============================================================ */
+
+.host-card--dark {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.host-learn-more {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-top: var(--space-4);
+  padding: var(--space-2) var(--space-5);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-primary);
+  background: transparent;
+  border: 2px solid var(--color-primary);
+  border-radius: var(--radius-full);
+  text-decoration: none;
+  transition: all var(--transition-interactive);
+}
+
+.host-learn-more:hover {
+  background: var(--color-primary);
+  color: #fff;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+}
+
+.host-learn-more--light {
+  color: #fff;
+  border-color: rgba(255,255,255,0.5);
+}
+
+.host-learn-more--light:hover {
+  background: rgba(255,255,255,0.15);
+  border-color: #fff;
+  color: #fff;
+}
