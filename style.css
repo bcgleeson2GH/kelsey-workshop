@@ -1287,6 +1287,7 @@
   color: var(--color-text-faint);
   line-height: 1.6;
   max-width: none;
+  text-align: center;
 }
 
 .disclosure-text strong {
