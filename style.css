@@ -1283,7 +1283,7 @@
 }
 
 .disclosure-text {
-  font-size: 7px;
+  font-size: 10px;
   color: var(--color-text-faint);
   line-height: 1.6;
   max-width: none;
